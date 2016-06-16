@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1000px;
+	height: 500px;
+	background-color: #D9DA64;
+	background-image: url(image/realiphone-01.jpg);
+
+}
+
+.draw{
+	background-color: #F5F5F5;
+	padding: 11px 10px 0px 10px;
+	width: 213px;
+	height: 437px;
+	border: 2px solid #D1D3D4;
+	border-radius: 30px;
+	box-shadow: 0px 0px 3px 3px #D9DBDC inset;
+	margin: 31.5px 143.5px 31.5px 143.5px;
+	float: left;
+}
+
+.camera{
+	background-color: #2D2E31;
+	width: 5px;
+	height: 5px;
+	border: 1px black;
+	border-radius: 5px;
+	/*margin: 11px 0px 5px 95.5px;*/
+	margin: auto;
+
+}
+
+.circle{
+	background-color: #2D2E31;
+	width: 7px;
+	height: 7px;
+	border: 1px black;
+	border-radius: 7px;
+	float: left;
+	margin-left: 62px;
+	margin-top: 6.375px;
+	float: left;
+	display: inline-block;
+}
+
+.line{
+	background-color: #2D2E31;
+	width: 28px;
+	height: 2.25px;
+	border-radius: 2.25px;
+	margin: auto;
+	margin-top: 9px;
+	/*display: inline-block;*/
+	/*margin-left: 72px;*/
+}
+.inside{
+	/*background-color: #FFFFFF;*/
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#CCCCCC), to(#565656)); 
+	width: 189px;
+	height: 337px;
+	margin-top: 18.5px;
+	border: 2px solid #8C8C8C;
+	border-radius: 4px;
+}
+
+.button{
+	background-color: #F5F5F5;
+	width: 29px;
+	height: 29px;
+	border: 2px solid #97979A;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 8px;
+	box-shadow: 1px 1px 1px 1px #D9DBDC;
+}
+
+/*.real{
+	background-color: #30B665;
+	background-image: url(image/realiphone-01.jpg);
+	width: 500px;
+	height: 500px;
+    display: inline-block;
+}*/
