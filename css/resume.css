@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F1F1F1;
+}
+
+h1{
+	font-size: 28px;
+	color: #5C5C5C;
+	font-family: Microsoft JhengHei;
+	font-weight: bold;
+	line-height: 36px;
+	letter-spacing: 5px;
+}
+
+.en{
+	font-size: 24px;
+	color: #5C5C5C;
+	font-family: calibri;
+}
+
+.sign{
+	/*width: 10px;
+	height: 30px;
+	background-color: #96DCC7;
+	float: left;*/
+	width: 10px;
+    height: 30px;
+    margin: 20px 20px;
+    /*-webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);*/
+    background: #96DCC7;
+    float: left;
+    position: relative;
+}
+
+.sign p{
+	color: #5C5C5C;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight: bold;
+	font-style: normal;
+	position: absolute;
+	top: -3px;
+	left: 20px;
+	white-space: nowrap;
+}
+
+table{
+	margin: 70px 40px;
+	border: 1px solid #BEBEBE;
+}
+
+td{
+	border: 1px solid #BEBEBE;
+	color: #000000;
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	letter-spacing: 2px;
+	padding: 3px;
+
+}
+
+.container{
+	width: 900px;
+	height: 1200px;
+	margin: 0px auto;
+	background-color: #F5F4BD;
+}
+
+header{
+	width: 100%;
+	height: 250px;
+	background-color: #FFFFFF;
+}
+
+.photo{
+	width: 210px;
+	height: 210px;
+	background-image: url(../image/youai01.jpg);
+	background-size: cover;
+	border-radius: 220px;
+	border: 5px solid #96DCC7;
+	margin: 20px;
+	float: left;
+}
+
+.name{
+	width: 290px;
+	height: 250px;
+	border: 1px dashed #737171;
+	float: left;
+	padding: 80px 40px;
+	/*background-color: #FFFFFF;*/
+}
+
+/*.name p{
+	color: #7B7B7B;
+	font-size: 24px;
+}*/
+
+.information{
+	width: 40%;
+	height: 250px;
+	border: 1px dashed #737171;
+	float:left;
+	/*background-color: #FFFFFF;*/
+}
+
+article{
+	width: 100%;
+	height: 800px;
+	background-color: #FFFFFF;
+}
+
+.aboutme{
+	width: 60%;
+	height: 400px;
+	/*background-color: #FFFFFF;*/
+	float: left;
+	border: 1px dashed #737171;
+}
+
+.skills{
+	width: 40%;
+	height: 400px;
+	/*background-color: #E0E0E0;*/
+	float: left;
+	border: 1px dashed #737171;
+}
+
+.experience{
+	width: 60%;
+	height: 400px;
+	/*background-color: #E0E0E0;*/
+	float: left;
+	border: 1px dashed #737171;
+}
+
+.education{
+	width: 40%;
+	height: 400px;
+	/*background-color: #FFFFFF;*/
+	float: left;
+	border: 1px dashed #737171;
+}
