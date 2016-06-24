@@ -16,7 +16,7 @@
 [class*="col-"]{
 	width: 100%;
 	float: left;
-	border: 1px solid #E82D2D;
+	/*border: 1px solid #E82D2D;*/
 	padding: 0px 10px;
 }
 
@@ -28,13 +28,13 @@ nav{
 	margin: 0px auto;
 }
 
-h1{
+.name{
 	color: #ECECEC;
 	font-size: 24px;
 	font-family: calibri;
 	font-weight: bold;
 	letter-spacing: 1px;
-	padding: 5px 50px 0px 100px;
+	padding: 5px 50px 0px 50px;
 	float: left;
 }
 
@@ -166,7 +166,26 @@ h3{
 }
 
 
+.show-menu {
+	color: #ECECEC;
+	font-size: 24px;
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 5px 50px 0px 100px;
+	float: left;
+	display: none;
+}
 
+.littlenav{
+	width: 35px;
+	height: 35px;
+	background-image: url(../image/littlenav-01.jpg);
+	background-size: cover;
+	float: left;
+	margin: 3px 0px 0px 130px;
+	display: none;
+}
 
 
 
@@ -297,5 +316,14 @@ h3{
 	.col-sm-12{
 		width: calc(100% * 12 / 12);
 	}
+
+	ul{
+		display: none;
+	}
+
+	.littlenav{
+		display: block;
+	}
+	
 }
 
