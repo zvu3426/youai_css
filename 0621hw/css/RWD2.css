@@ -16,7 +16,7 @@
 [class*="col-"]{
 	width: 100%;
 	float: left;
-	/*border: 1px solid #E82D2D;*/
+	border: 1px solid #E82D2D;
 	padding: 0px 10px;
 }
 
