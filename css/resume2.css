@@ -105,6 +105,7 @@ td{
 	width: 80%;
 	display: block;
 	margin: auto;
+	margin-bottom: 20px;
 	/*position: relative;
 	top: 0px;
 	left: 40px;*/
@@ -169,7 +170,7 @@ h1{
 	height: 400px;
 	background-color:#DC9797;
 	border: 1px dashed #737171;*/
-	margin: 83px 70px 60px 83px;
+	margin: 83px 95px 60px 83px;
 }
 
 .aboutme p{
@@ -341,21 +342,21 @@ h5{
 	width: 50%;
 	height: 12px;
 	background-color: #96DCC7;
-	margin: 3px 0px 3px 3px;
+	margin: 2px 0px 2px 3px;
 }
 
 .box1{
 	width: 70%;
 	height: 12px;
 	background-color: #96DCC7;
-	margin: 3px 0px 3px 3px;
+	margin: 2px 0px 2px 3px;
 }
 
 .box2{
 	width: 90%;
 	height: 12px;
 	background-color: #96DCC7;
-	margin: 3px 0px 3px 3px;
+	margin: 2px 0px 2px 3px;
 }
 
 .box3{
@@ -374,6 +375,55 @@ h5{
 	margin-left: 10px;
 	display: inline-block;
 }
+
+#show{
+	width: 
+}
+
+.achievement img{
+	width: 50%;
+	display: block;
+	margin: auto;
+	opacity: 0.5;
+	/*height: 200px;*/
+	
+	/*height: 200px;
+	background-color: #E02D2D;*/
+}
+
+.achievement img:hover{
+	animation-play-state: paused;
+	opacity: 1;
+}
+
+.portfolio img{
+	width: 50%;
+	display: block;
+	margin: auto;
+	opacity: 0.5;
+	/*background-color: #7BB194;
+	height: 200px;*/
+}
+
+.portfolio img:hover{
+	animation-play-state: paused;
+	opacity: 1;
+}
+
+.others img{
+	width: 50%;
+	display: block;
+	margin: auto;
+	opacity: 0.5;
+	/*background-color: #20A8CC;
+	height: 200px;*/
+}
+
+.others img:hover{
+	animation-play-state: paused;
+	opacity: 1;
+}
+
 
 footer{
 	width: 100%;
@@ -565,3 +615,45 @@ footer{
 
 
 }
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+
