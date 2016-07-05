@@ -23,25 +23,32 @@
 header{
 	width: 100%;
 	height: 60px;
-	color: #FFFFFF;
 	/*background-color:#ECF4F4;*/
 	background: -webkit-linear-gradient(left,#8FBEA4,#ECF4F4);
 	background: -o-linear-gradient(right,#8FBEA4,#ECF4F4);
 	background: -moz-linear-gradient(right,#8FBEA4,#ECF4F4);
 	background: linear-gradient(to right,#8FBEA4,#ECF4F4);
+	margin: 8px 0px;
+	
+	/*border-radius: 10px;*/
+}
 
+header p{
+	color: #FFFFFF;
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
-	font-style: 微軟正黑體;
+	font-family: Trebuchet MS;
+	letter-spacing: 2px;
 	padding: 4px; 
+	margin: 0px 3px;	
 }
 
-header img{
+/*header img{
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
-}
+}*/
 
 .photo {
 	height: 350px;
@@ -49,7 +56,7 @@ header img{
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 15px 0px 20px 0px;
+    /*margin: 0px 0px 20px 0px;*/
 }
 
 .container{
