@@ -20,6 +20,46 @@
 	box-shadow: 0px 0px 3px 3px #D9DBDC inset;
 	margin: 31.5px 143.5px 31.5px 143.5px;
 	float: left;
+	position: relative;
+}
+
+.left1{
+	width: 2px;
+	height: 13.5px;
+	background-color: #C7C7C7;
+	position: absolute;
+	top: 48px;
+	left: -3px;
+}
+
+.left2{
+	width: 2px;
+	height: 27px;
+	background-color: #C7C7C7;
+	position: absolute;
+	top: 80px;
+	left: -3px;
+
+}
+
+.left3{
+	width: 2px;
+	height: 27px;
+	background-color: #C7C7C7;
+	position: absolute;
+	top: 115px;
+	left: -3px;
+
+}
+
+.right1{
+	width: 2px;
+	height: 24.5px;
+	background-color: #C7C7C7;
+	position: absolute;
+	top: 80px;
+	left: 210px;
+
 }
 
 .camera{
@@ -28,7 +68,6 @@
 	height: 5px;
 	border: 1px black;
 	border-radius: 5px;
-	/*margin: 11px 0px 5px 95.5px;*/
 	margin: auto;
 
 }
@@ -53,16 +92,12 @@
 	border-radius: 2.25px;
 	margin: auto;
 	margin-top: 9px;
-	/*display: inline-block;*/
-	/*margin-left: 72px;*/
 }
 .inside{
-	/*background-color: #FFFFFF;*/
 	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#CCCCCC), to(#565656)); 
 	width: 189px;
 	height: 337px;
 	margin-top: 18.5px;
-	/*clear: left;*/
 	border: 2px solid #8C8C8C;
 	border-radius: 4px;
 }
@@ -77,11 +112,3 @@
 	margin-top: 8px;
 	box-shadow: 1px 1px 1px 1px #D9DBDC;
 }
-
-/*.real{
-	background-color: #30B665;
-	background-image: url(image/realiphone-01.jpg);
-	width: 500px;
-	height: 500px;
-    display: inline-block;
-}*/

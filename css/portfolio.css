@@ -16,8 +16,6 @@
 [class*="col-"]{
 	width: 100%;
 	float: left;
-	/*border: 1px solid #E82D2D;*/
-	/*padding: 0px 10px;*/
 }
 
 header{
@@ -29,8 +27,6 @@ header{
 	background: -moz-linear-gradient(right,#8FBEA4,#ECF4F4);
 	background: linear-gradient(to right,#8FBEA4,#ECF4F4);
 	margin: 8px 0px;
-	
-	/*border-radius: 10px;*/
 }
 
 header p{
@@ -44,19 +40,12 @@ header p{
 	margin: 0px 3px;	
 }
 
-/*header img{
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-}*/
-
 .photo {
 	height: 350px;
     background-image: url(../image/bg03.jpg);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    /*margin: 0px 0px 20px 0px;*/
 }
 
 .container{

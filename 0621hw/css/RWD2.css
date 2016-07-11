@@ -36,6 +36,7 @@ nav{
 	letter-spacing: 1px;
 	padding: 5px 50px 0px 50px;
 	float: left;
+	white-space:nowrap;
 }
 
 ul>li{
@@ -163,6 +164,7 @@ h3{
 	padding: 9px 0px;
 	float: left;
 	margin: 3px 0px 10px 0px;
+	white-space:nowrap;
 }
 
 
@@ -325,6 +327,37 @@ footer{
 	.col-md-12{
 		width: calc(100% * 12 / 12);
 	}
+
+	.gohome{
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+		margin: 10px auto;
+	}
+
+	.gohome a{
+		text-decoration: none;
+	}
+
+	.fa-home{
+		position: absolute;
+		top: 8px;
+		left: 10px;
+	}
+
+
+	.goback{
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+		margin: 5px auto;
+	}
+
+	.fa-arrow-left{
+		position: absolute;
+		top: 8px;
+		left: 10px;
+	}
 }
 
 @media screen and (max-width: 699px){
@@ -371,9 +404,47 @@ footer{
 		display: none;
 	}
 
-	.littlenav{
+	/*.littlenav{
 		display: block;
+	}*/
+
+	.fa-bars{
+		display: block;
+		font-size: 28px;
+		float: right;
+		margin: 6px 3px;
 	}
-	
+
+	.gohome{
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+		margin: 10px auto;
+	}
+
+	.gohome a{
+		text-decoration: none;
+	}
+
+	.fa-home{
+		position: absolute;
+		top: 8px;
+		left: 10px;
+	}
+
+
+	.goback{
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+		margin: 5px auto;
+	}
+
+	.fa-arrow-left{
+		position: absolute;
+		top: 8px;
+		left: 10px;
+	}
+
 }
 
